@@ -17,4 +17,8 @@ dependencies {
 
     //Add Vertx Web dependency
     compile 'io.vertx:vertx-web:3.5.0'
+
+    //Template Dependency
+    compile 'io.vertx:vertx-web-templ-freemarker:3.5.0'
+    compile 'io.vertx:vertx-web-templ-thymeleaf:3.5.0'
 }

@@ -5,6 +5,8 @@
 1. compile "io.vertx:vertx-core:3.5.0"
 2. compile "io.vertx:vertx-lang-groovy:3.5.0"
 
+****
+
 *Please refer **0e4a9b47bd1e04c373dc6db2ec91f025fa57fd84** commit_id*
 
 **To Create a Vertx Instance use**
@@ -16,6 +18,8 @@ Vertx vertx = Vertx.vertx()
 2. And Override *start()* and *stop()*
 
 **Start vertx Instance to deploy the Verticle**
+
+****
 
 Please run the the main() method of **HelloWorld.java**
 
@@ -41,13 +45,24 @@ request.response().putHeader("content-type", "text/plain").end("Hello World!!!")
 **Add Listener Port to HttpServer**
 
 server.listen(8085)
-
+****
 Please run the main() method of **web.com.nexthoughts.WebSample.java**
 
 *Please refer **5e1b3be65d0e4666167da571ad7badebc6d29e00** commit_id*
+
+****
 
 **More Complex HttpServer with routing**
 
 Please follow the router.com.nexthoughts.RouterSample
 
 *Please refer **62af23f6861b3c3408feb8db10f24d56d4c95d7f** commit_id*
+
+# Let add templates to create a complete Web application
+Vertx has support of many templates like *Thymeleaf*, *Apache FreeMarker* etc.
+
+** Add Vertx template dependency**
+1. compile 'io.vertx:vertx-web-templ-thymeleaf:3.5.0'
+2. compile 'io.vertx:vertx-web-templ-freemarker:3.5.0'
+
+*Please refer **template.com.nexthoughts.TemplateSample** for the templating example*
