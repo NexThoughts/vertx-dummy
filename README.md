@@ -17,7 +17,7 @@ Vertx vertx = Vertx.vertx()
 
 **Start vertx Instance to deploy the Verticle**
 
-Please run the the main() method of HelloWorld.java
+Please run the the main() method of **HelloWorld.java**
 
 *Please refer **ea12fdad807359b70abe2acf217ce33f75d6baf5** commit_id*
 
@@ -42,6 +42,6 @@ request.response().putHeader("content-type", "text/plain").end("Hello World!!!")
 
 server.listen(8085)
 
-Please run the main() method of web.com.nexthoughts.WebSample.java
+Please run the main() method of **web.com.nexthoughts.WebSample.java**
 
 *Please refer **5e1b3be65d0e4666167da571ad7badebc6d29e00** commit_id*
