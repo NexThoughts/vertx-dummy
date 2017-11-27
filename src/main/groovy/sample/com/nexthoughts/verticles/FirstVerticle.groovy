@@ -1,4 +1,4 @@
-package com.nexthoughts.verticles
+package sample.com.nexthoughts.verticles
 
 import io.vertx.core.AbstractVerticle
 

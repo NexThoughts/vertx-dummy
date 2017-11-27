@@ -1,7 +1,7 @@
-package com.nexthoughts
+package sample.com.nexthoughts
 
-import com.nexthoughts.verticles.FirstVerticle
 import io.vertx.core.Vertx
+import sample.com.nexthoughts.verticles.FirstVerticle
 
 class HelloWorld {
     public static void main(String[] args) {
