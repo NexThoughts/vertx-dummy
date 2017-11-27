@@ -14,4 +14,7 @@ repositories {
 dependencies {
     compile "io.vertx:vertx-core:3.5.0"
     compile "io.vertx:vertx-lang-groovy:3.5.0"
+
+    //Add Vertx Web dependency
+    compile 'io.vertx:vertx-web:3.5.0'
 }

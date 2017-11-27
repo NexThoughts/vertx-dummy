@@ -24,3 +24,20 @@ Please run the the main() method of HelloWorld.java
 # Let use Create some inhanced Vertx application with Web Server
 
 **Add Vertx HttpServer dependency**
+1. compile 'io.vertx:vertx-web:3.5.0'
+
+**Create a Verticle who will Start a HttpServer**
+
+HttpServer server = vertx.createHttpServer()
+
+**Add a Receiver to handle the request**
+
+server.requestHandler({ request -> })
+
+**Create a Response from above created handler**
+
+request.response().putHeader("content-type", "text/plain").end("Hello World!!!")
+
+**Add Listener Port to HttpServer**
+
+server.listen(8085)
